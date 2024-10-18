@@ -10,6 +10,7 @@ const winCombos = [
     [0, 4, 8],
     [2, 4, 6]
 ];
+
 function makeMove(cell, index) {
     if (!board[index]) {
         board[index] = currentPlayer;
